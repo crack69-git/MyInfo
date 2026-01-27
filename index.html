@@ -5,8 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyInfo</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
+    <header>
+        <section class="bg-[#f9f9f9] pt-10">
+            <nav class="flex justify-between px-20 navbar">
+                <p class="text-5xl nav-logo text-[#0b2f3e]">MyInfo</p>
+                <div class="nav-links flex gap-10 items-center">
+                    <a href="#">Home</a>
+                    <a href="#">My Project</a>
+                    <a href="#">Contact Me</a>
+                </div>
+                <button class="btn px-6 py-4">Download CV</button>
+            </nav>
+            <div class="flex justify-between hero px-20">
+                <div class="hero-text pl-17 pt-[170px]">
+                    <p class="text-8xl txt">Hi, I’m</p>
+                    <p class="text-6xl txt mb-6">Ashutosh Tanchangya</p>
+                    <p class="text-2xl opacity-60 mb-6">I design and develop.And I love what i do!</p>
+                    <button class="btn px-6 py-4">View My Work</button>
+                </div>
+                <div style="background-image: url(assests/hero-bg.png);z-index: 1;">
+                    <img src="assests/profile1.png" alt="hero-bg">
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="flex justify-center py-20 px-32 gap-20">
+            <div class="about-img">
+                <img class="w-2x" src="assests/profile1.png" alt="about-bg">
+            </div>
+            <div class="about-section mt-14">
+                <h2 class="text-7xl mb-5">About Me</h2>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus rem maxime enim! Laudantium natus harum impedit? Sunt, veniam expedita in molestiae eligendi cumque? Porro hic cum nemo nulla tempora dolorem optio natus temporibus tenetur, pariatur nesciunt, accusantium impedit, minima ad!</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
