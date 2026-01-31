@@ -5,34 +5,18 @@
     font-weight: 400;
     font-style: normal;
 }
-.nav-logo{
-    font-weight: 800;
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
 }
-.nav-links a{
-    color: #0b2f3e;
+.nav-link ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
-.nav-links a:focus{
-    color: red
-}
-.btn{
-    font-weight: 600;
-    border-radius: 40px;
-    background-color: #5d6043;
-    color: white;
-}
-.txt{
-    color: #5a0084;
-    font-weight: 800;
-}
-.about-img img{
-    box-shadow: -10px 10px 60px 15px rgba(137, 190, 231, 0.3);
-}
-.about-section h2{
-    font-weight: 800;
-}
-@media screen and (max-width: 576px){
-    .navbar{
-        
-    }
+.nav-link ul a:hover{
+    border-bottom: 2px solid rgb(56, 10, 132);
+    color: rgb(0, 196, 250);
 }
