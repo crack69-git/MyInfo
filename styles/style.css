@@ -11,6 +11,10 @@
     padding: 0 50px;
     align-items: center;
 }
+.navbar .nav-logo img{
+    max-width: 50px;
+    height: auto;
+}
 .nav-link ul a{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -19,4 +23,20 @@
 .nav-link ul a:hover{
     border-bottom: 2px solid rgb(56, 10, 132);
     color: rgb(0, 196, 250);
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: #ff751f;
+}
+.btn-1{
+    border: 1px solid #ff751f;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.hero-img img{
+    max-width: 400vh;
+    height: auto;
 }
